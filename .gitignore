@@ -1,0 +1,7 @@
+*.tif.aux.xml
+*.tif.ovr
+*.zip
+FLDPLN/data/wildcat_dem.tif
+FLDPLN/data/bil/
+FLDPLN/data/tmp/segment/
+FLDPLN/data/tmp/segment-raw-library/
