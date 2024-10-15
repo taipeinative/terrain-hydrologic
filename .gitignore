@@ -3,5 +3,7 @@
 *.zip
 FLDPLN/data/wildcat_dem.tif
 FLDPLN/data/bil/
+FLDPLN/data/maps/
 FLDPLN/data/tmp/segment/
 FLDPLN/data/tmp/segment-raw-library/
+FLDPLN/data/tmp/tile/*.snz
