@@ -5,7 +5,6 @@ import numpy.typing as npt
 import os.path
 import rasterio
 import rasterio.transform
-from   scipy import ndimage
 import sloper
 import typing
 
@@ -29,6 +28,7 @@ class Dataset():
         '''
         self._band: int = 1
         self._distance: tuple
+        self._extent: tuple[float, float, float, float]
         self._meta: dict = {}
         self._path: os.PathLike
         self._shape: tuple
@@ -65,6 +65,7 @@ class Dataset():
                         self._y = np.reshape(_coord_y, self._z.shape)   # Y array
                         
                         self._distance = f.res
+                        self._extent = (f.bounds.left, f.bounds.right, f.bounds.bottom, f.bounds.top)
                         self._meta = f.meta
                         self._shape = f.shape
 
@@ -94,6 +95,17 @@ class Dataset():
     @distance.setter
     def distance(self: Dataset, new: typing.Any) -> None:
         raise AttributeError('The property `distance` is read-only.')
+    
+    @property
+    def extent(self: Dataset) -> tuple[float, float, float, float]:
+        '''
+        The extent of the file in the format of (left, right, bottom, top).
+        '''
+        return self._extent
+    
+    @extent.setter
+    def extent(self: Dataset, new: typing.Any) -> None:
+        raise AttributeError('The property `extent` is read-only.')
 
     @property
     def meta(self: Dataset) -> dict | None:
