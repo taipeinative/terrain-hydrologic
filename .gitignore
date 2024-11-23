@@ -7,3 +7,4 @@ FLDPLN/data/maps/
 FLDPLN/data/tmp/segment/
 FLDPLN/data/tmp/segment-raw-library/
 FLDPLN/data/tmp/tile/*.snz
+ETOPO*.tif
