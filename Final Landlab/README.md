@@ -6,15 +6,15 @@ This is the final project for my Terrain Analysis and Hydrologic Modelling cours
 
 **Fig. 1.** 2D representation of the model.
 
-![2D simulation GIF](result\2D-Simulation.gif)
+![2D simulation GIF](https://raw.githubusercontent.com/taipeinative/terrain-hydrologic/refs/heads/main/Final%20Landlab/result/2D-Simulation.gif)
 
 **Fig. 2.** 3D representation of the model.
 
-![3D simulation GIF](result\3D-Simulation.gif)
+![3D simulation GIF](https://raw.githubusercontent.com/taipeinative/terrain-hydrologic/refs/heads/main/Final%20Landlab/result/3D-Simulation.gif)
 
 **Fig. 3.** The water body of the model.
 
-![Drainage simulation GIF](result\2D-Drainage-Simulation.gif)
+![Drainage simulation GIF](https://raw.githubusercontent.com/taipeinative/terrain-hydrologic/refs/heads/main/Final%20Landlab/result/2D-Drainage-Simulation.gif)
 
 ## References & Softwares
 
