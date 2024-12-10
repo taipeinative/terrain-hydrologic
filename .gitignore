@@ -9,5 +9,7 @@ FLDPLN/data/tmp/segment-raw-library/
 FLDPLN/data/tmp/tile/*.snz
 ETOPO*.tif
 figure*.png
+Final Landlab/src/Ome_5m_810x900_conditioned.tif
+Final Landlab/src/Ome_5m_810x900_nodata_filled.tif
 Final landlab/src/unused idea/*.tif
 Tama_5m_3000x4500_merged.tif
